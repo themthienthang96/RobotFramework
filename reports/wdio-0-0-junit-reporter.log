@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Login Page" timestamp="2021-07-15T08:40:31" time="8.967" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Login Page"/>
+      <property name="capabilities" value="chrome.91_0_4472_124.windows"/>
+      <property name="file" value=".\TestCase\TC_001_Login.js"/>
+    </properties>
+    <testcase classname="chrome.91_0_4472_124.windows.Login Page" name="Login To The Page" time="8.964">
+      <system-out><![CDATA[
+COMMAND: POST /session/ba5680dc99d41bfa58c6105685b94998/url - {"url":"http://terrace.asto-system.biz/login"}
+RESULT: {"url":"http://terrace.asto-system.biz/login"}
+COMMAND: POST /session/ba5680dc99d41bfa58c6105685b94998/element - {"using":"xpath","value":"/html/body/div/div/div/div[2]/div/form/div[1]/input"}
+RESULT: {"using":"xpath","value":"/html/body/div/div/div/div[2]/div/form/div[1]/input"}
+COMMAND: POST /session/ba5680dc99d41bfa58c6105685b94998/element/335d2f16-07be-432a-bf79-d75b339115bf/clear - {}
+RESULT: {}
+COMMAND: POST /session/ba5680dc99d41bfa58c6105685b94998/element/335d2f16-07be-432a-bf79-d75b339115bf/value - {"text":"admin@admin.com"}
+RESULT: {"text":"admin@admin.com"}
+COMMAND: POST /session/ba5680dc99d41bfa58c6105685b94998/element - {"using":"xpath","value":"/html/body/div/div/div/div[2]/div/form/div[2]/input"}
+RESULT: {"using":"xpath","value":"/html/body/div/div/div/div[2]/div/form/div[2]/input"}
+COMMAND: POST /session/ba5680dc99d41bfa58c6105685b94998/element/833ebd03-cc44-4392-9265-9461ed0ee40c/clear - {}
+RESULT: {}
+COMMAND: POST /session/ba5680dc99d41bfa58c6105685b94998/element/833ebd03-cc44-4392-9265-9461ed0ee40c/value - {"text":"123"}
+RESULT: {"text":"123"}
+COMMAND: POST /session/ba5680dc99d41bfa58c6105685b94998/element - {"using":"xpath","value":"/html/body/div/div/div/div[2]/div/form/div[4]/div/button"}
+RESULT: {"using":"xpath","value":"/html/body/div/div/div/div[2]/div/form/div[4]/div/button"}
+COMMAND: POST /session/ba5680dc99d41bfa58c6105685b94998/element/0c3530ee-2bf5-4834-94c9-cca102a48581/click - {}
+RESULT: {}
+COMMAND: DELETE /session/ba5680dc99d41bfa58c6105685b94998 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
